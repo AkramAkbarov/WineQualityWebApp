@@ -1,14 +1,3 @@
-"""
-Təlimdə istifadə etdiyiniz eyni CSV ilə scaler.pkl yaradın.
-
-Nümunə (notebook-da):
-    import joblib
-    joblib.dump(scaler, "scaler.pkl")
-
-və ya bu skript:
-    python create_scaler.py wine_quality.csv
-"""
-
 import sys
 from pathlib import Path
 

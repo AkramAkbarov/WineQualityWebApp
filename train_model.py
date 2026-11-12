@@ -1,15 +1,3 @@
-"""
-Wine Quality (6 sinif) üçün model + scaler yenidən təlim.
-
-Standart UCI / Kaggle CSV: 11 feature + "quality" (adətən 3-8, 6 sinif -> 0-5).
-
-Istifade:
-  python train_model.py
-  python train_model.py path/to/wine.csv
-
-Sonra serveri yeniden baslatin: uvicorn main:app --reload
-"""
-
 from __future__ import annotations
 
 import argparse

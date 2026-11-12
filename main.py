@@ -28,7 +28,6 @@ FEATURE_NAMES = [
     "alcohol",
 ]
 
-# Model sinifleri 0-5: yaradici "serab evi" adlari (sadalanan keyfiyyet pilləsi)
 WINE_TIER_NAMES: tuple[str, ...] = (
     "Villa Xəzər — kölgə arxası",
     "Adağ qırmızısı — stolun dostu",
